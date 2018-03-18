@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/lampara" version="1.0.0" viewmodes="maximized">
+    <access origin="*" subdomains="true"/>
+    <tizen:app-widget id="kiq7N0O8u9.Lmpara.Widget" primary="true">
+        <tizen:widget-label>Lámpara</tizen:widget-label>
+        <tizen:widget-content src="widget/Widget/index.html">
+            <tizen:widget-size preview="widget/Widget/preview.png">2x2</tizen:widget-size>
+        </tizen:widget-content>
+    </tizen:app-widget>
+    <tizen:application id="kiq7N0O8u9.Lmpara" package="kiq7N0O8u9" required_version="2.3.2"/>
+    <author>Pedro</author>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="unnamed.png"/>
+    <name>Lámpara</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="disable" encryption="disable" hwkey-event="enable"/>
+</widget>
